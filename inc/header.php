@@ -26,6 +26,10 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
   <!--<meta name="theme-color" content="#ed1c24" />-->
 
   <link rel="stylesheet" href="assets/css/main.min.css?<?php echo filemtime( 'assets/css/main.min.css' ); ?>" />
@@ -42,26 +46,19 @@
           ?>
           <<?php echo $siteLogo__tag; ?> class="b-siteLogo" itemscope itemtype="http://schema.org/Organization">
             <a class="b-siteLogo__link"<?php echo $siteLogo__link; ?> itemprop="url">
-              <img class="b-siteLogo__icon" src="assets/img/blocks/siteLogo/siteLogo-logo.png" alt="<?php echo $siteName; ?>" title="<?php echo $siteName; ?>" itemprop="logo" />
+              <img class="b-siteLogo__icon" src="assets/img/blocks/siteLogo/siteLogo.png" alt="<?php echo $siteName; ?>" title="<?php echo $siteName; ?>" itemprop="logo" />
             </a>
           </<?php echo $siteLogo__tag; ?>>
-        </div>
-
-        <div class="l-siteSearch">
-          <form class="b-siteSearch" role="search" method="post" action="#">
-            <label class="b-siteSearch__search">
-              <span class="b-siteSearch__label g-visuallyhidden">Search:</span>
-              <input class="b-siteSearch__input" type="search" name="s" spellcheck="true" />
-            </label>
-
-            <input class="b-siteSearch__button" type="submit" value="Search" />
-          </form>
         </div>
 
         <nav class="l-mainNavigation">
           <ul class="b-mainNavigation">
             <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Home</a>
+              <a class="b-mainNavigation__link" href="index.html">About us</a>
+            </li>
+
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link" href="index.html">Contact us</a>
             </li>
           </ul>
         </nav>

@@ -8,9 +8,17 @@
 .b-siteCopyright {
   margin: 15px 0;
   @include first-last-margin;
+  color: $fontGray;
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+  text-align: left;
 
   &__link {
-    @include hover-underline;
-    color: inherit;
+    @include underline-hover;
+    color: $fontGray;
   }
 }

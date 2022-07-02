@@ -2,8 +2,23 @@
  * @section siteHeader
  */
 .l-siteHeader {
-  position: relative;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: none;
+  z-index: 999;
 }
 .b-siteHeader {
-  @include clearfix;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1125px;
+  box-sizing: border-box;
+  padding: 38px 20px 0 20px;
+  margin: 0;
+  gap: 37px;
 }
