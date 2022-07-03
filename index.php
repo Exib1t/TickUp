@@ -38,7 +38,7 @@ require( 'inc/header.php' );
       </div>
 
       <div class="b-contentInfo__side -img">
-        <svg id="SVGDoc" width="374" height="276" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:avocode="https://avocode.com/" viewBox="0 0 374 276"><defs></defs><desc>Generated with Avocode.</desc><g><g><title>Fill-13 Copy</title><path d="M3.68861,138c-10.44885,-46 5.53894,-98.17358 46.52112,-123.93811c54.52734,-34.27722 84.09302,5.41309 129.20978,29.51453c65.69739,35.11792 179.88324,-29.22302 193.50171,80.85352c12.78717,103.06152 -106.15173,137.05029 -185.68573,149.68713c-57.55615,9.14465 -75.67365,-22.83105 -111.6969,-57.31677c-29.02051,-27.80029 -61.52393,-33.35962 -71.84998,-78.80029" fill="#0cc060" fill-opacity="1"></path></g></g></svg>
+        <svg class="b-contentInfo__img" id="SVGDoc" width="374" height="276" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:avocode="https://avocode.com/" viewBox="0 0 374 276"><defs></defs><desc>Generated with Avocode.</desc><g><g><title>Fill-13 Copy</title><path d="M3.68861,138c-10.44885,-46 5.53894,-98.17358 46.52112,-123.93811c54.52734,-34.27722 84.09302,5.41309 129.20978,29.51453c65.69739,35.11792 179.88324,-29.22302 193.50171,80.85352c12.78717,103.06152 -106.15173,137.05029 -185.68573,149.68713c-57.55615,9.14465 -75.67365,-22.83105 -111.6969,-57.31677c-29.02051,-27.80029 -61.52393,-33.35962 -71.84998,-78.80029" fill="#0cc060" fill-opacity="1"></path></g></g></svg>
       </div>
     </div>
   </div>
@@ -53,7 +53,7 @@ require( 'inc/header.php' );
       </div>
 
       <div class="b-contentInfo__side -img">
-        <svg id="SVGDoc" width="320" height="275" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:avocode="https://avocode.com/" viewBox="0 0 320 275"><defs></defs><desc>Generated with Avocode.</desc><g><g><title>Fill-6</title><path d="M288.28333,47v0c0,0 -15.08401,-12.89282 -53.51651,-10.59692c-45.17068,2.7041 -73.91147,-11.64868 -106.71613,-24.66528c-32.80466,-13.01367 -100.71916,-25.26904 -121.31764,22.20898c-20.60138,47.47485 10.68005,79.63721 32.04596,111.05322c21.3688,31.37158 37.35109,46.33691 39.48476,74c2.78775,36.08105 53.60663,75.28857 90.23099,45.42505c36.62436,-29.86084 63.17621,-57.95361 99.95172,-81.16602c47.30441,-29.86646 77.83002,-90.35229 19.83685,-136.25903" fill="#0cc060" fill-opacity="1"></path></g></g></svg>
+        <svg class="b-contentInfo__img" id="SVGDoc" width="320" height="275" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:avocode="https://avocode.com/" viewBox="0 0 320 275"><defs></defs><desc>Generated with Avocode.</desc><g><g><title>Fill-6</title><path d="M288.28333,47v0c0,0 -15.08401,-12.89282 -53.51651,-10.59692c-45.17068,2.7041 -73.91147,-11.64868 -106.71613,-24.66528c-32.80466,-13.01367 -100.71916,-25.26904 -121.31764,22.20898c-20.60138,47.47485 10.68005,79.63721 32.04596,111.05322c21.3688,31.37158 37.35109,46.33691 39.48476,74c2.78775,36.08105 53.60663,75.28857 90.23099,45.42505c36.62436,-29.86084 63.17621,-57.95361 99.95172,-81.16602c47.30441,-29.86646 77.83002,-90.35229 19.83685,-136.25903" fill="#0cc060" fill-opacity="1"></path></g></g></svg>
       </div>
     </div>
   </div>
